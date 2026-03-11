@@ -14,13 +14,13 @@ const steps = [
     number: "02",
     icon: Package,
     title: "Adicione seus produtos",
-    description: "Cadastre seus produtos com nome, preço e estoque inicial. Importe uma planilha ou adicione um a um.",
+    description: "Cadastre seus produtos com nome, preço e estoque inicial.",
   },
   {
     number: "03",
     icon: TrendingUp,
     title: "Comece a vender",
-    description: "Abra o caixa e registre suas vendas. Acompanhe resultados em tempo real no dashboard.",
+    description: "Abra o caixa informando o valor inicial, registre vendas e feche com o relatório do dia. Acompanhe tudo em tempo real.",
   },
 ];
 
