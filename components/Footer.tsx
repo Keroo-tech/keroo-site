@@ -1,10 +1,10 @@
-import { Instagram, Twitter, Linkedin, Facebook } from "lucide-react";
+import { Facebook } from "lucide-react";
 
 export default function Footer() {
   const links = {
-    Produto: ["Funcionalidades", "Preços", "Atualizações", "Roadmap"],
-    Suporte: ["Central de ajuda", "Documentação", "Status do sistema", "Contato"],
-    Empresa: ["Sobre nós", "Blog", "Parceiros", "Carreiras"],
+    Serviços: ["Desenvolvimento sob medida", "Integração de sistemas", "Apps mobile", "UX/UI e Design", "Suporte contínuo"],
+    Produtos: ["Keroo PDV", "Em breve"],
+    Empresa: ["Sobre nós", "Blog", "Carreiras", "Parceiros", "Contato"],
   };
 
   return (
@@ -18,21 +18,20 @@ export default function Footer() {
                 <span className="text-white font-bold text-sm">K</span>
               </div>
               <span className="text-xl font-bold text-white">Keroo</span>
-              <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">PDV</span>
+              <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">Tech</span>
             </a>
             <p className="text-sm leading-relaxed max-w-xs mb-6">
-              O sistema PDV mais simples e completo para pequenas e médias empresas brasileiras.
+              Fábrica de software especializada em soluções sob medida para pequenas e médias empresas brasileiras.
             </p>
             <div className="flex gap-3">
-              {[Instagram, Twitter, Linkedin, Facebook].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-9 h-9 bg-gray-800 hover:bg-primary rounded-lg flex items-center justify-center transition-colors"
-                >
-                  <Icon size={16} className="text-gray-400 hover:text-white" />
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/profile.php?id=61574321272265"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 bg-gray-800 hover:bg-primary rounded-lg flex items-center justify-center transition-colors"
+              >
+                <Facebook size={16} className="text-gray-400 hover:text-white" />
+              </a>
             </div>
           </div>
 
@@ -54,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
-          <p>© 2026 Keroo. Todos os direitos reservados.</p>
+          <p>© 2026 Keroo Tech. Todos os direitos reservados.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacidade</a>
             <a href="#" className="hover:text-white transition-colors">Termos de uso</a>
