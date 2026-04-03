@@ -14,9 +14,9 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { label: "Funcionalidades", href: "#funcionalidades" },
-    { label: "Preços", href: "#precos" },
-    { label: "Depoimentos", href: "#depoimentos" },
+    { label: "Serviços", href: "#servicos" },
+    { label: "Produtos", href: "#produtos" },
+    { label: "Como trabalhamos", href: "#como-trabalhamos" },
     { label: "Contato", href: "#contato" },
   ];
 
@@ -34,7 +34,7 @@ export default function Header() {
               <span className="text-white font-bold text-sm">K</span>
             </div>
             <span className="text-xl font-bold text-primary">Keroo</span>
-            <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">PDV</span>
+            <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">Tech</span>
           </a>
 
           {/* Desktop Nav */}
@@ -56,7 +56,7 @@ export default function Header() {
               href="#contato"
               className="bg-accent hover:bg-accent/90 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
             >
-              Começar grátis
+              Fale com a gente
             </a>
           </div>
 
@@ -89,7 +89,7 @@ export default function Header() {
               className="bg-accent text-white font-semibold text-sm px-5 py-2.5 rounded-lg text-center mt-2"
               onClick={() => setMenuOpen(false)}
             >
-              Começar grátis
+              Fale com a gente
             </a>
           </nav>
         </div>

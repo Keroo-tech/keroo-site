@@ -14,37 +14,36 @@ export default function CtaBanner() {
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block bg-accent/20 text-accent border border-accent/30 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
-            Comece hoje mesmo
+            Vamos conversar
           </span>
           <h2 className="text-3xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Pronto para modernizar<br />seu PDV?
+            Tem um projeto em mente?<br />Vamos conversar.
           </h2>
           <p className="text-blue-200 text-lg mb-10 max-w-xl mx-auto">
-            Teste grátis por 14 dias. Sem cartão de crédito. Cancele quando quiser.
+            Conte-nos o seu desafio e a Keroo Tech transforma em solução. Sem enrolação.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <div className="flex flex-col items-center gap-4 justify-center mb-12">
             <a
-              href="mailto:contato@keroo.com.br"
+              href="https://mail.google.com/mail/?view=cm&to=suporte@kerootech.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-accent/30"
             >
-              Começar grátis agora
+              Enviar e-mail
               <ArrowRight size={18} />
             </a>
-            <a
-              href="https://wa.me/5500000000000"
-              className="bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-xl border border-white/20 transition-all flex items-center justify-center gap-2"
-            >
-              Falar com consultor
-            </a>
+            <span className="text-blue-200 text-sm">
+              suporte@kerootech.com.br
+            </span>
           </div>
 
           <div className="flex flex-wrap justify-center gap-6 text-sm text-blue-200">
             {[
-              "14 dias grátis",
-              "Sem cartão de crédito",
-              "Suporte incluso",
-              "Cancele a qualquer momento",
+              "Resposta em até 24h",
+              "Proposta sem compromisso",
+              "Time especializado",
+              "Foco em PMEs brasileiras",
             ].map((item) => (
               <span key={item} className="flex items-center gap-1.5">
                 <span className="text-accent">✓</span> {item}

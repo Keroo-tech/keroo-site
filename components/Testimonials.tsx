@@ -10,7 +10,7 @@ const testimonials = [
     company: "Padaria São João",
     initials: "AP",
     color: "bg-purple-500",
-    text: "Antes do Keroo eu controlava tudo em papel. Hoje consigo ver quanto vendi no mês inteiro em segundos. O sistema é muito simples e minha equipe aprendeu a usar no mesmo dia.",
+    text: "A Keroo Tech entendeu nosso negócio desde o primeiro contato. O sistema que desenvolveram transformou nossa operação e hoje consigo ter visibilidade total das vendas em segundos.",
   },
   {
     name: "Ricardo Mendes",
@@ -18,7 +18,7 @@ const testimonials = [
     company: "Mercadinho Família",
     initials: "RM",
     color: "bg-primary",
-    text: "O controle de estoque mudou completamente nosso negócio. Paramos de perder venda por falta de produto. Recomendo para qualquer comerciante.",
+    text: "Profissionalismo e agilidade do início ao fim. A equipe entregou tudo no prazo e com uma qualidade surpreendente. Recomendo para qualquer empresa que queira crescer com tecnologia.",
   },
   {
     name: "Carla Ferreira",
@@ -26,13 +26,13 @@ const testimonials = [
     company: "Lanchonete Sabor Real",
     initials: "CF",
     color: "bg-accent",
-    text: "Testei 14 dias grátis e já na primeira semana vi a diferença. Os relatórios de vendas me ajudam a decidir o que comprar e o que descontinuar. Excelente custo-benefício.",
+    text: "Testamos outros fornecedores antes e a diferença foi clara. A Keroo Tech não entrega só código — entrega solução. O suporte pós-entrega também é excelente.",
   },
 ];
 
 export default function Testimonials() {
   return (
-    <section id="depoimentos" className="py-24 bg-white">
+    <section id="depoimentos" className="py-24 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,7 @@ export default function Testimonials() {
             O que nossos clientes dizem
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Mais de 500 empresas já modernizaram seu PDV com o Keroo.
+            Empresas que confiaram na Keroo Tech para transformar seus negócios com tecnologia.
           </p>
         </motion.div>
 
@@ -58,7 +58,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-[#F8FAFC] rounded-2xl p-8 border border-gray-100 hover:shadow-md transition-shadow relative"
+              className="bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-md transition-shadow relative"
             >
               <Quote size={28} className="text-accent/20 absolute top-6 right-6" />
               <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">

@@ -1,32 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { UserPlus, Package, TrendingUp } from "lucide-react";
+import { Search, Code2, Rocket } from "lucide-react";
 
 const steps = [
   {
     number: "01",
-    icon: UserPlus,
-    title: "Cadastre seu negócio",
-    description: "Crie sua conta em minutos. Informe os dados da sua empresa e configure o sistema do jeito que você precisa.",
+    icon: Search,
+    title: "Entendemos seu negócio",
+    description: "Fazemos um diagnóstico completo dos seus processos, desafios e objetivos antes de escrever qualquer linha de código.",
   },
   {
     number: "02",
-    icon: Package,
-    title: "Adicione seus produtos",
-    description: "Cadastre seus produtos com nome, preço e estoque inicial. Importe uma planilha ou adicione um a um.",
+    icon: Code2,
+    title: "Desenvolvemos a solução",
+    description: "Nossa equipe projeta e desenvolve a solução com metodologias ágeis, entregas frequentes e total transparência.",
   },
   {
     number: "03",
-    icon: TrendingUp,
-    title: "Comece a vender",
-    description: "Abra o caixa e registre suas vendas. Acompanhe resultados em tempo real no dashboard.",
+    icon: Rocket,
+    title: "Entregamos e evoluímos",
+    description: "Colocamos em produção, acompanhamos os resultados e continuamos evoluindo o produto junto com você.",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-24 bg-white">
+    <section id="como-trabalhamos" className="py-24 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,12 +35,12 @@ export default function HowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">Como funciona</span>
+          <span className="text-accent font-semibold text-sm uppercase tracking-wider">Como trabalhamos</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-2 mb-4">
-            Comece em 3 passos simples
+            Do problema à solução
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Sem complicação. Em minutos você já está vendendo com o Keroo PDV.
+            Um processo claro, colaborativo e focado em resultados reais para o seu negócio.
           </p>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function HowItWorks() {
             href="#contato"
             className="bg-primary hover:bg-primary/90 text-white font-semibold px-8 py-4 rounded-xl transition-colors inline-block"
           >
-            Começar agora — é grátis
+            Falar com nossa equipe
           </a>
         </motion.div>
       </div>
