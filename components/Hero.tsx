@@ -42,7 +42,7 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="flex gap-8 mt-12">
+            {/* <div className="flex gap-8 mt-12">
               {[
                 { value: "20+", label: "projetos entregues" },
                 { value: "4+", label: "anos de experiência" },
@@ -53,7 +53,7 @@ export default function Hero() {
                   <p className="text-sm text-blue-200">{stat.label}</p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Visual */}
