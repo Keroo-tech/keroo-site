@@ -23,16 +23,22 @@ const products: Product[] = [
     ctaHref: "#contato",
   },
   {
-    name: "Em breve",
-    description: "Novos produtos estão sendo desenvolvidos. Fique de olho nas novidades da Keroo Tech.",
-    category: "",
-    status: "coming_soon",
+    name: "Keroo Institucionais",
+    description:
+      "Criação de sites exclusivos e otimizados para destacar sua marca, atrair novos clientes e impulsionar suas vendas na internet.",
+    category: "Sites Personalizados",
+    status: "available",
+    ctaLabel: "Saiba mais",
+    ctaHref: "#contato",
   },
   {
-    name: "Em breve",
-    description: "Novas soluções para PMEs brasileiras chegando em breve.",
-    category: "",
-    status: "coming_soon",
+    name: "Keroo Lojas virtuais",
+    description:
+      "Crie sua loja online completa e venda 24/7 com gestão simplificada, pagamentos integrados e alta performance.",
+    category: "E-commerce",
+    status: "available",
+    ctaLabel: "Saiba mais",
+    ctaHref: "#contato",
   },
 ];
 
